@@ -1,0 +1,125 @@
+.mainheader{
+    position: fixed;
+    width: 100%;
+    background-position: fixed;
+    z-index:1;
+  }
+
+  .card {
+    margin-bottom: 20px;
+    border: none;
+  }
+ 
+
+
+@media only screen and (max-width:767px){
+  .card2{
+    margin-bottom: 200px ;
+  }
+}
+/*.mainheader:hover{
+  background-color: #333333;
+  color: red;
+  
+}*/
+
+
+.dropdown ul li
+    {
+        float: left;
+        width: 150px;
+        line-height: 50px;
+        background-color: transparent;
+        border: 1px solid;
+        color: black;
+        font-weight: 500px;
+        text-align: center;
+        list-style: none;
+        opacity: 0.5;
+        border: none;
+        
+    }
+    .dropdown ul {
+        padding: 0;
+    }
+    .dropdown ul li ul {
+        display: none;
+    }
+    .dropdown ul li:hover>ul {
+        display: block;
+    }
+     .dropdown ul{
+            padding: 0;
+        }
+        .dropdown ul li ul{
+            display: none;
+        }
+        .dropdown ul li:hover > ul{
+            display: block;
+        }
+        .dropdown ul li:hover{
+            background-color: transparent;
+            opacity: 0.9;
+        }
+        .dropdown ul li ul li{
+            position: relative;
+        }
+        .dropdown ul li ul li ul{
+            position: absolute;
+            left: 200px;
+            top: 0;
+        }
+
+        .container {
+          text-align: center;
+          margin-top: 100px;
+        }
+        
+        #searchIcon {
+          position: relative;
+          display: inline-block;
+          cursor: pointer;
+        }
+        
+        .icon {
+          font-size: 24px;
+        }
+        
+        #searchOptions {
+          position: absolute;
+          top: 50px;
+          left: 100px;
+          transform: translateX(-50%);
+          width: 690px;
+          padding: 10px;
+          background: #f2f2f2;
+          border: 1px solid #ccc;
+          border-radius: 4px;
+          /*text-align: center;*/
+          opacity: 0;
+          visibility: hidden;
+          transition: opacity 0.3s ease-in-out, visibility 0.3s ease-in-out;
+          z-index: 1;
+        }
+        
+        #searchOptions.show {
+          opacity: 1;
+          visibility: visible;
+        }
+
+        .text a{
+          color: black;
+        }
+        .footer{
+          background-color: black;
+          color: white;
+        }
+        @media only screen and (max-width:767px){
+          .cardt{
+            margin-bottom: 50px ;
+          }
+        }
+        /*.mainheader:hover{
+          background-color: #333333;
+          color: red;
+        }*/
